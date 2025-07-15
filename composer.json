@@ -1,0 +1,16 @@
+{
+    "name": "caraballo/gs",
+    "description": "Basic Student Grading System",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Caraballo\\Gs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Caraballo L."
+        }
+    ],
+    "require": {}
+}
