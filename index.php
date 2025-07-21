@@ -1,7 +1,11 @@
 <?php
 
-use Caraballo\Gs\Models\studentModel;
+use Caraballo\Gs\Models\StudentModel;
+
 require 'vendor/autoload.php';
 
-$student1 = new StudentModel;
-var_dump($student1);
+$student = new StudentModel;
+
+$listOfStudents = $student->read();
+
+print_r($listOfStudents);
